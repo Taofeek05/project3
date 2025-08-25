@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.menu-bar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    margin-left: 7rem;
+}
+
+.menu-bar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu-bar ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #dc4141;
+}
+
+.sub-menu-content{
+    display: absolute;
+    justify-content: space-between;
+    position: fixed;
+    width: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.sub-menu i{
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+.sub-menu-content a{
+    display: none;
+    text-decoration: none;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    color: #444;
+}
+
+.sub-menu-content a:hover{
+    color: #dc4141;
+}
+
+.sub-menu:hover .sub-menu-content a{
+    display: list-item;
+}
+
+.btn1 {
+    margin-left: 25rem;
+    background-color: #dc4141;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    
+}
+
+.para1 {
+    background-color: black;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.text1 {
+    color: #fff;
+    margin-left: 1rem;
+    font-size: 18px;
+    line-height: 1.5rem;
+    padding-bottom: 35px;
+}
+
+.btn2 {
+    background-color: #dc4141;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-left: 1rem;
+    font-size: 14px;
+    
+}
+.master{
+    background-image:  linear-gradient(rgba(15, 3, 2, 0.4), rgba(15, 3, 2, 0.4)), url(Images/back1.jpg);
+    height: 100%;
+    background-position: center;
+    padding-top: 6rem;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15rem;
+}
+
+.form1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 15rem;
+
+}
+
+.former{
+    background-color: #fff;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27.5rem;
+    margin-right: 27.5rem;
+    border-radius: 4px;
+
+}
+
+.former input {
+    margin-top: 10px;
+    height: 40px;
+    width: 22rem;
+    border-style: none;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 5px;
+    font-size: 14px;
+    color: #666;
+
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #999;
+   
+}
+
+
+.btn3 {
+    background-color: #dc4141;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 800;
+    border-radius: 3px;
+    font-size: 18px;
+
+    
+}
+
+.link {
+    display: flex;
+    padding-top: 10px;
+}
+
+.btn4 {
+    display: flex;
+    background-color: #dc4141;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 800;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.btn4 i {
+    padding-right: 18px;
+}
+
+.btn4 p {
+    font-size: 12px;
+}
+
+.btn4 h5 {
+    font-size: 20px;
+}
+
+.btn5 {
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    font-weight: bold;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 800;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.btn5 i {
+    padding-right: 18px;
+}
+
+.btn5 p {
+    font-size: 12px;
+    color: #444;
+    padding-right: 60px;
+}
+
+.btn5 h5 {
+    font-size: 20px;
+}
+
+.master p {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.para2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #f5f4f4;
+}
+
+.para2 h1 {
+    font-size: 40px;
+    line-height: 2.25rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.card-section {
+    display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 110px;
+}
+
+.card-section i {
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.card-section :hover {
+    background-color: black;
+    color: #fff;
+}
+
+.card-section h4 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.card-section p {
+    color: #444;
+    margin-right: 40px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+}
+
+.card1 {
+    width: 25%;
+    height: 17rem;
+    border: solid 1px #d2d1d1;
+    background-color: #fff;
+}
+
+.card1 i {
+    padding-left: 30px;
+}
+
+.card2 {
+    width: 25%;
+    height: 17rem;
+    border: solid 1px #d2d1d1;
+    background-color: #fff;
+}
+
+.card2 i {
+    padding-left: 30px;
+}
+
+.card3 {
+    width: 25%;
+    height: 17rem;
+    border: solid 1px #d2d1d1;
+    background-color: #fff;
+}
+
+.card3 i {
+    padding-left: 30px;
+}
+
+
+.card4 {
+    width: 25%;
+    height: 17rem;
+    border: solid 1px #d2d1d1;
+    background-color: #fff;
+}
+
+.para3 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 110px;
+
+}
+
+.right{
+    margin-right: 1rem;
+}
+
+.right h2 {
+    color: #fff;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-right: 350px;
+}
+
+.left {
+    margin-top: 80px;
+    margin-right: 60px;
+}
+
+.para4 {
+
+    background-color: #f5f4f4;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text2 {
+    display: inline;
+}
+
+.one {
+    font-size: 32px;
+    color: black;
+}
+
+.two {
+    font-size: 32px;
+    color: #dc4141;
+    padding-bottom: 100px;
+    margin-right: 55rem;
+}
+
+.card-section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-section2 h4 {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.card-section2 p {
+    color: #222;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 35px;
+}
+
+.card5{
+    margin-right: 80px;
+}
+
+.card7 {
+
+    margin-left: 80px;
+}
+
+.footer {
+    background-image: url(Images/Fotter\ image.webp);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+.ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.ul li {
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.ul li a {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    line-height: 42px;
+    font-size: 18px;
+}
+
+.icons {
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.fa-facebook {
+    padding-right: 13.5px;
+}
+
+.fa-instagram {
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+}
+
+.fa-twitter {
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+}
+
+.fa-linkedin{
+    padding-left: 13.5px;
+
+}
+
+
